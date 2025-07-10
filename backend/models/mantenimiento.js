@@ -8,7 +8,6 @@ const MantenimientoSchema = new mongoose.Schema({
   comentarios: String,
   realizo: String,
   recibio: String
-  // Agrega aquí más campos si los necesitas
 });
 
 export default mongoose.model("Mantenimiento", MantenimientoSchema);
